@@ -4,3 +4,7 @@
 
 ### retrieve
 `curl -X GET 'localhost:8080/articles?author=freddie'`
+
+
+## Reference
+https://godoc.org/golang.org/x/oauth2#Config.TokenSource
