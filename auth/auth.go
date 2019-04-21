@@ -71,7 +71,7 @@ func RandToken() string {
 }
 
 type User struct {
-	Uid	string `json:"uid"`
+	Uid	string `json:"sub"`
 	Name string `json:"name"`
 	Email string `json:"email"`
 }
